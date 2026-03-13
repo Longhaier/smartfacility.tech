@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Facility - Industrial Energy & Smart Factory Blog</title>
     <meta name="description" content="Expert insights on industrial energy saving, smart factory technologies, and facility management">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -26,13 +27,8 @@
             background: var(--bg);
         }
         
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
         
-        /* Header */
         header {
             background: var(--bg);
             border-bottom: 1px solid var(--border);
@@ -44,68 +40,25 @@
             background: rgba(255,255,255,0.95);
         }
         
-        header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        header .container { display: flex; justify-content: space-between; align-items: center; }
         
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            text-decoration: none;
-        }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
+        .logo span { color: var(--text); }
         
-        .logo span {
-            color: var(--text);
-        }
+        nav a { color: var(--text-light); text-decoration: none; margin-left: 32px; font-weight: 500; transition: color 0.2s; }
+        nav a:hover { color: var(--primary); }
         
-        nav a {
-            color: var(--text-light);
-            text-decoration: none;
-            margin-left: 32px;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        
-        nav a:hover {
-            color: var(--primary);
-        }
-        
-        /* Hero */
         .hero {
             background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
             padding: 80px 0;
             text-align: center;
         }
         
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: #1e293b;
-            margin-bottom: 16px;
-            letter-spacing: -0.02em;
-        }
+        .hero h1 { font-size: 3rem; font-weight: 800; color: #1e293b; margin-bottom: 16px; letter-spacing: -0.02em; }
+        .hero p { font-size: 1.25rem; color: var(--text-light); max-width: 600px; margin: 0 auto; }
         
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-light);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        /* Articles */
-        .articles-section {
-            padding: 60px 0;
-        }
-        
-        .section-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 32px;
-            color: #1e293b;
-        }
+        .articles-section { padding: 60px 0; }
+        .section-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 32px; color: #1e293b; }
         
         .article-card {
             background: var(--bg);
@@ -116,6 +69,7 @@
             transition: all 0.2s;
             text-decoration: none;
             display: block;
+            cursor: pointer;
         }
         
         .article-card:hover {
@@ -124,196 +78,428 @@
             transform: translateY(-2px);
         }
         
-        .article-card h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1e293b;
-            margin-bottom: 12px;
-        }
+        .article-card h2 { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin-bottom: 12px; }
+        .article-meta { font-size: 0.875rem; color: var(--text-light); margin-bottom: 16px; }
+        .article-meta .category { background: #eff6ff; color: var(--primary); padding: 4px 12px; border-radius: 20px; font-weight: 500; }
+        .article-card p { color: var(--text-light); line-height: 1.7; }
+        .article-footer { margin-top: 20px; display: flex; gap: 8px; flex-wrap: wrap; }
+        .tag { font-size: 0.75rem; color: var(--text-light); background: var(--bg-secondary); padding: 4px 12px; border-radius: 20px; }
         
-        .article-meta {
-            font-size: 0.875rem;
-            color: var(--text-light);
-            margin-bottom: 16px;
-        }
+        /* Full Article Page */
+        .article-full { padding: 60px 0; }
+        .article-full h1 { font-size: 2.5rem; font-weight: 800; color: #1e293b; margin-bottom: 16px; }
+        .article-full .meta { font-size: 1rem; color: var(--text-light); margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+        .article-full h2 { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin: 40px 0 20px 0; }
+        .article-full h3 { font-size: 1.25rem; font-weight: 600; color: #374151; margin: 30px 0 15px 0; }
+        .article-full p { margin: 16px 0; color: var(--text); }
+        .article-full ul, .article-full ol { margin: 16px 0; padding-left: 24px; }
+        .article-full li { margin: 8px 0; }
+        .article-full .highlight { background: #f0f9ff; padding: 24px; border-radius: 12px; margin: 24px 0; border-left: 4px solid var(--primary); }
+        .back-link { display: inline-block; margin-bottom: 32px; color: var(--primary); text-decoration: none; font-weight: 500; }
+        .back-link:hover { text-decoration: underline; }
         
-        .article-meta .category {
-            background: #eff6ff;
-            color: var(--primary);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-weight: 500;
-        }
+        .about-section { padding: 60px 0; background: var(--bg-secondary); }
+        .about-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 32px; }
         
-        .article-card p {
-            color: var(--text-light);
-            line-height: 1.7;
-        }
+        footer { background: var(--bg-secondary); padding: 40px 0; text-align: center; color: var(--text-light); border-top: 1px solid var(--border); margin-top: 60px; }
+        footer p { font-size: 0.875rem; }
         
-        .article-footer {
-            margin-top: 20px;
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
+        .hidden { display: none; }
         
-        .tag {
-            font-size: 0.75rem;
-            color: var(--text-light);
-            background: var(--bg-secondary);
-            padding: 4px 12px;
-            border-radius: 20px;
-        }
-        
-        /* Footer */
-        footer {
-            background: var(--bg-secondary);
-            padding: 40px 0;
-            text-align: center;
-            color: var(--text-light);
-            border-top: 1px solid var(--border);
-            margin-top: 60px;
-        }
-        
-        footer p {
-            font-size: 0.875rem;
-        }
-        
-        /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
-            .article-card {
-                padding: 24px;
-            }
-            .article-card h2 {
-                font-size: 1.25rem;
-            }
+            .hero h1 { font-size: 2rem; }
+            .article-card { padding: 24px; }
+            .article-full h1 { font-size: 1.75rem; }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="/" class="logo">Smart<span>Facility</span></a>
-            <nav>
-                <a href="/">Home</a>
-                <a href="#articles">Articles</a>
-                <a href="#about">About</a>
-            </nav>
-        </div>
-    </header>
-    
-    <section class="hero">
-        <div class="container">
-            <h1>Industrial Energy & Smart Factory</h1>
-            <p>Expert insights on energy saving, smart factory technologies, and facility management for modern manufacturing</p>
-        </div>
-    </section>
-    
-    <section class="articles-section" id="articles">
-        <div class="container">
-            <h2 class="section-title">Latest Articles</h2>
-            
-            <a href="#article1" class="article-card">
-                <h2>The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories</h2>
-                <div class="article-meta">
-                    <span class="category">Energy Saving</span>
-                    <span>•</span>
-                    <span>March 13, 2026</span>
+    <!-- Home Page -->
+    <div id="home-page">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav>
+                    <a href="#" onclick="showHome()">Home</a>
+                    <a href="#articles" onclick="showHome()">Articles</a>
+                    <a href="#about" onclick="showHome()">About</a>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="hero">
+            <div class="container">
+                <h1>Industrial Energy & Smart Factory</h1>
+                <p>Expert insights on energy saving, smart factory technologies, and facility management for modern manufacturing</p>
+            </div>
+        </section>
+        
+        <section class="articles-section" id="articles">
+            <div class="container">
+                <h2 class="section-title">Latest Articles</h2>
+                
+                <div class="article-card" onclick="showArticle('article1')">
+                    <h2>The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories</h2>
+                    <div class="article-meta">
+                        <span class="category">Energy Saving</span>
+                        <span>•</span>
+                        <span>March 13, 2026</span>
+                    </div>
+                    <p>In semiconductor manufacturing enterprises, compressed air systems are the true "energy hogs". A 200kW air compressor running 24 hours can cost over 100,000 yuan in electricity bills every month...</p>
+                    <div class="article-footer">
+                        <span class="tag">Compressor</span>
+                        <span class="tag">Heat Recovery</span>
+                        <span class="tag">Energy Saving</span>
+                    </div>
                 </div>
-                <p>In semiconductor manufacturing enterprises, compressed air systems are the true "energy hogs". A 200kW air compressor running 24 hours can cost over 100,000 yuan in electricity bills every month. But few people know that 80% of this electrical energy is converted into heat and wasted...</p>
-                <div class="article-footer">
-                    <span class="tag">Compressor</span>
-                    <span class="tag">Heat Recovery</span>
-                    <span class="tag">Energy Saving</span>
+                
+                <div class="article-card" onclick="showArticle('article2')">
+                    <h2>Cleanroom HVAC System Energy Saving: A Complete Guide</h2>
+                    <div class="article-meta">
+                        <span class="category">Facility Equipment</span>
+                        <span>•</span>
+                        <span>March 13, 2026</span>
+                    </div>
+                    <p>Cleanrooms are the core infrastructure for high-tech industries such as integrated circuits, LCD panels, and biopharmaceuticals. Maintaining cleanroom environments consumes massive energy...</p>
+                    <div class="article-footer">
+                        <span class="tag">Cleanroom</span>
+                        <span class="tag">HVAC</span>
+                        <span class="tag">Energy Saving</span>
+                    </div>
                 </div>
-            </a>
-            
-            <a href="#article2" class="article-card">
-                <h2>Cleanroom HVAC System Energy Saving: A Complete Guide</h2>
-                <div class="article-meta">
-                    <span class="category">Facility Equipment</span>
-                    <span>•</span>
-                    <span>March 13, 2026</span>
+                
+                <div class="article-card" onclick="showArticle('article3')">
+                    <h2>Transformer Load Optimization: Making Power Systems More Efficient</h2>
+                    <div class="article-meta">
+                        <span class="category">Facility Equipment</span>
+                        <span>•</span>
+                        <span>March 13, 2026</span>
+                    </div>
+                    <p>Electricity is the blood of modern industry, and transformers are the heart of power systems. How transformers are selected and operated directly relates to power efficiency and safety...</p>
+                    <div class="article-footer">
+                        <span class="tag">Transformer</span>
+                        <span class="tag">Power System</span>
+                        <span class="tag">Optimization</span>
+                    </div>
                 </div>
-                <p>Cleanrooms are the core infrastructure for high-tech industries such as integrated circuits, LCD panels, and biopharmaceuticals. Maintaining cleanroom environments consumes massive energy, with HVAC systems accounting for 40-60% of total energy consumption...</p>
-                <div class="article-footer">
-                    <span class="tag">Cleanroom</span>
-                    <span class="tag">HVAC</span>
-                    <span class="tag">Energy Saving</span>
+                
+                <div class="article-card" onclick="showArticle('article4')">
+                    <h2>Predictive Maintenance: Eliminating Failures Before They Happen</h2>
+                    <div class="article-meta">
+                        <span class="category">Facility Management</span>
+                        <span>•</span>
+                        <span>March 13, 2026</span>
+                    </div>
+                    <p>"Equipment broke again!" This is probably the last thing every factory floor wants to hear. Traditional equipment maintenance mode is "repair after failure"...</p>
+                    <div class="article-footer">
+                        <span class="tag">Maintenance</span>
+                        <span class="tag">Predictive</span>
+                        <span class="tag">IoT</span>
+                    </div>
                 </div>
-            </a>
-            
-            <a href="#article3" class="article-card">
-                <h2>Transformer Load Optimization: Making Power Systems More Efficient</h2>
-                <div class="article-meta">
-                    <span class="category">Facility Equipment</span>
-                    <span>•</span>
-                    <span>March 13, 2026</span>
-                </div>
-                <p>Electricity is the blood of modern industry, and transformers are the heart of power systems. How transformers are selected and operated directly relates to power efficiency and safety. Many factories have the problem of "oversized transformers" - wasting investment while increasing losses...</p>
-                <div class="article-footer">
-                    <span class="tag">Transformer</span>
-                    <span class="tag">Power System</span>
-                    <span class="tag">Optimization</span>
-                </div>
-            </a>
-            
-            <a href="#article4" class="article-card">
-                <h2>Predictive Maintenance: Eliminating Failures Before They Happen</h2>
-                <div class="article-meta">
-                    <span class="category">Facility Management</span>
-                    <span>•</span>
-                    <span>March 13, 2026</span>
-                </div>
-                <p>"Equipment broke again!" This is probably the last thing every factory floor wants to hear. Traditional equipment maintenance mode is "repair after failure" - but this passive maintenance not only affects production but may also lead to serious safety incidents...</p>
-                <div class="article-footer">
-                    <span class="tag">Maintenance</span>
-                    <span class="tag">Predictive</span>
-                    <span class="tag">IoT</span>
-                </div>
-            </a>
-            
-            <a href="#article5" class="article-card">
-                <h2>Industrial Circulating Water System Energy Saving</h2>
-                <div class="article-meta">
-                    <span class="category">Energy Saving</span>
-                    <span>•</span>
-                    <span>March 13, 2026</span>
-                </div>
-                <p>Circulating water systems are the "circulatory system" of industrial enterprises, widely used in central air conditioning, cooling process equipment, and boiler feedwater. A typical electronics factory's circulating water system can consume millions of kWh annually...</p>
-                <div class="article-footer">
-                    <span class="tag">Circulating Water</span>
-                    <span class="tag">Pump</span>
-                    <span class="tag">Cooling Tower</span>
-                </div>
-            </a>
-        </div>
-    </section>
-    
-    <section class="articles-section" id="about" style="background: var(--bg-secondary);">
-        <div class="container">
-            <h2 class="section-title">About Smart Facility</h2>
-            <div class="article-card">
-                <p>Smart Facility is a professional knowledge platform dedicated to industrial energy management and smart factory technologies. We provide expert insights, best practices, and case studies on reducing energy consumption in manufacturing facilities, implementing smart factory technologies, and optimizing facility operations.</p>
-                <div class="article-footer">
-                    <span class="tag">Industrial Energy</span>
-                    <span class="tag">Smart Factory</span>
-                    <span class="tag">Facility Management</span>
+                
+                <div class="article-card" onclick="showArticle('article5')">
+                    <h2>Industrial Circulating Water System Energy Saving</h2>
+                    <div class="article-meta">
+                        <span class="category">Energy Saving</span>
+                        <span>•</span>
+                        <span>March 13, 2026</span>
+                    </div>
+                    <p>Circulating water systems are the "circulatory system" of industrial enterprises, widely used in central air conditioning, cooling process equipment, and boiler feedwater...</p>
+                    <div class="article-footer">
+                        <span class="tag">Circulating Water</span>
+                        <span class="tag">Pump</span>
+                        <span class="tag">Cooling Tower</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Smart Facility</h2>
+                <div class="about-card">
+                    <p>Smart Facility is a professional knowledge platform dedicated to industrial energy management and smart factory technologies. We provide expert insights, best practices, and case studies on reducing energy consumption in manufacturing facilities, implementing smart factory technologies, and optimizing facility operations.</p>
+                    <div class="article-footer">
+                        <span class="tag">Industrial Energy</span>
+                        <span class="tag">Smart Factory</span>
+                        <span class="tag">Facility Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Article 1 -->
+    <div id="article1" class="hidden">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="#" onclick="showHome()">← Back</a></nav>
+            </div>
+        </header>
+        <section class="article-full">
+            <div class="container">
+                <a href="#" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <h1>The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories: A Practical Case Study of Compressed Air System Heat Recovery</h1>
+                <div class="meta"><span class="category">Energy Saving</span> • March 13, 2026</div>
+                
+                <p>In semiconductor manufacturing enterprises, compressed air systems are the true "energy hogs". A 200kW air compressor running 24 hours can cost over 100,000 yuan in electricity bills every month. But few people know that 80% of this electrical energy is converted into heat and wasted. Today, let's discuss how to turn "waste heat" into "treasure".</p>
+                
+                <h2>How Much Heat Does a Compressor Actually Generate?</h2>
+                <p>Taking a 200kW screw compressor as an example:</p>
+                <ul>
+                    <li>Input power: 200kW</li>
+                    <li>Effective work: approximately 40kW (20%)</li>
+                    <li>Heat loss: approximately 160kW (80%)</li>
+                </ul>
+                <p>If all 160kW of heat is recovered, it equals:</p>
+                <ul>
+                    <li>Annual electricity savings of approximately 500,000 yuan</li>
+                    <li>Hot water supply for 1,000 people</li>
+                    <li>Winter heating for factory buildings</li>
+                </ul>
+                
+                <h2>Three Main Methods of Heat Recovery</h2>
+                
+                <h3>1. Hot Water Recovery</h3>
+                <p>This is the most common recovery method. Install heat exchangers in the compressor's lubrication system to transfer heat to softened water:</p>
+                <ul>
+                    <li>Water output: 3-5 m³/h</li>
+                    <li>Water temperature: 60-85°C</li>
+                    <li>Applicable scenarios: factory bathrooms, boiler preheating, canteen water</li>
+                </ul>
+                
+                <h3>2. Air Preheating</h3>
+                <p>Use recovered heat to preheat fresh air entering the factory:</p>
+                <ul>
+                    <li>Can reduce HVAC load by 20-30%</li>
+                    <li>Especially suitable for winter operation in northern regions</li>
+                    <li>Investment payback period: approximately 2-3 years</li>
+                </ul>
+                
+                <h3>3. Generator Drive</h3>
+                <p>This is the most efficient utilization method. Use steam generated from waste heat to drive a small generator:</p>
+                <ul>
+                    <li>Power generation efficiency can reach 15-20%</li>
+                    <li>Can provide 10-15% of the factory's electricity</li>
+                    <li>But requires higher initial investment</li>
+                </ul>
+                
+                <h2>Transformation Case Study</h2>
+                <div class="highlight">
+                    <p><strong>Before Transformation:</strong></p>
+                    <ul>
+                        <li>Compressor power: 3 × 200kW</li>
+                        <li>Annual electricity cost: approximately 5.2 million yuan</li>
+                        <li>Heat emissions: equivalent to 360kW</li>
+                    </ul>
+                    <p><strong>After Transformation:</strong></p>
+                    <ul>
+                        <li>Annual hot water production: approximately 30,000 tons</li>
+                        <li>Replaced gas boiler: 400,000 yuan annual savings</li>
+                        <li>Annual CO2 reduction: approximately 500 tons</li>
+                        <li>Investment payback period: 2.5 years</li>
+                    </ul>
+                </div>
+                
+                <h2>Conclusion</h2>
+                <p>Compressed air system heat recovery is a "highly profitable" energy-saving measure with mature technology and high ROI, especially suitable for industrial enterprises with high electricity consumption and hot water needs.</p>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Article 2 -->
+    <div id="article2" class="hidden">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="#" onclick="showHome()">← Back</a></nav>
+            </div>
+        </header>
+        <section class="article-full">
+            <div class="container">
+                <a href="#" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <h1>Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Operation</h1>
+                <div class="meta"><span class="category">Facility Equipment</span> • March 13, 2026</div>
+                
+                <p>Cleanrooms are the core infrastructure for high-tech industries such as integrated circuits, LCD panels, and biopharmaceuticals. Maintaining cleanroom environments consumes massive energy, with HVAC systems accounting for 40-60% of total energy consumption.</p>
+                
+                <h2>Why Cleanroom HVAC Consumes So Much Energy</h2>
+                <p>Cleanrooms have extremely strict environmental requirements:</p>
+                <ul>
+                    <li>Temperature control precision: ±0.1-0.5°C</li>
+                    <li>Humidity control precision: ±2-5%RH</li>
+                    <li>Air change rate: 10-600 times per hour</li>
+                    <li>Indoor positive pressure: 5-15Pa</li>
+                </ul>
+                
+                <h2>Energy-Saving Strategies</h2>
+                <h3>1. Reasonably Determine Cleanliness Level</h3>
+                <p>Higher cleanliness levels mean exponentially higher energy consumption. Determine the level based on actual process needs.</p>
+                
+                <h3>2. Optimize Airflow Design</h3>
+                <p>Good airflow organization can reduce vortices and dead zones, improve exchange efficiency, and shorten air filtration paths.</p>
+                
+                <h3>3. Select High-Efficiency Equipment</h3>
+                <ul>
+                    <li>Variable frequency centrifugal units: 30%+ more efficient</li>
+                    <li>EC fans: 20-40% more efficient</li>
+                    <li>Heat recovery units: recover exhaust air energy</li>
+                </ul>
+                
+                <h2>Conclusion</h2>
+                <p>Cleanroom HVAC energy saving is a systematic project that needs consideration from the entire lifecycle of design, construction, and operation.</p>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Article 3 -->
+    <div id="article3" class="hidden">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="#" onclick="showHome()">← Back</a></nav>
+            </div>
+        </header>
+        <section class="article-full">
+            <div class="container">
+                <a href="#" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <h1>Transformer Load Optimization: Making Power Systems More Efficient and Safer</h1>
+                <div class="meta"><span class="category">Facility Equipment</span> • March 13, 2026</div>
+                
+                <p>Electricity is the blood of modern industry, and transformers are the heart of power systems. How transformers are selected and operated directly relates to power efficiency and safety.</p>
+                
+                <h2>Understanding Transformer Losses</h2>
+                <h3>1. No-Load Loss (Iron Loss)</h3>
+                <p>Cause: Core magnetization. Exists as long as power is connected, independent of load.</p>
+                
+                <h3>2. Load Loss (Copper Loss)</h3>
+                <p>Cause: Winding resistance heating. Proportional to the square of load rate.</p>
+                
+                <h2>What is the Optimal Load Rate?</h2>
+                <p>When no-load loss equals load loss, total loss is minimized:</p>
+                <ul>
+                    <li>S11 type: 50-60%</li>
+                    <li>S13 type: 45-55%</li>
+                    <li>Amorphous alloy: 40-50%</li>
+                </ul>
+                
+                <h2>Optimization Strategies</h2>
+                <ul>
+                    <li>Adjust operating mode for multiple transformers</li>
+                    <li>Replace with efficient transformers</li>
+                    <li>Configure dynamic compensation</li>
+                    <li>Peak shaving and valley filling</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Article 4 -->
+    <div id="article4" class="hidden">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="#" onclick="showHome()">← Back</a></nav>
+            </div>
+        </header>
+        <section class="article-full">
+            <div class="container">
+                <a href="#" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <h1>Predictive Maintenance for Facility Equipment: Eliminating Failures Before They Happen</h1>
+                <div class="meta"><span class="category">Facility Management</span> • March 13, 2026</div>
+                
+                <p>"Equipment broke again!" This is probably the last thing every factory floor wants to hear. Traditional equipment maintenance mode is "repair after failure" - but this passive maintenance not only affects production but may also lead to serious safety incidents.</p>
+                
+                <h2>What is Predictive Maintenance?</h2>
+                <p>Predictive Maintenance (PdM) uses sensors to collect equipment data, analyzes data to predict failures, and performs maintenance before failures occur.</p>
+                <p><strong>Core Idea: Don't wait for equipment to break before repairing - predict in advance and repair early.</strong></p>
+                
+                <h2>Technology Foundation</h2>
+                <ul>
+                    <li><strong>Vibration sensors:</strong> Detect bearing wear, imbalance</li>
+                    <li><strong>Temperature sensors:</strong> Detect overheating, cooling system anomalies</li>
+                    <li><strong>Oil sensors:</strong> Detect wear particles, moisture content</li>
+                    <li><strong>Electrical sensors:</strong> Detect current, voltage anomalies</li>
+                </ul>
+                
+                <h2>Return on Investment</h2>
+                <ul>
+                    <li>Reducing unplanned downtime by 50-80%</li>
+                    <li>Extending equipment life by 10-30%</li>
+                    <li>Reducing maintenance costs</li>
+                    <li>Improving energy efficiency by 5-15%</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Article 5 -->
+    <div id="article5" class="hidden">
+        <header>
+            <div class="container">
+                <a href="#" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="#" onclick="showHome()">← Back</a></nav>
+            </div>
+        </header>
+        <section class="article-full">
+            <div class="container">
+                <a href="#" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <h1>Industrial Circulating Water System Energy Saving: Optimization Space That 90% Don't Know</h1>
+                <div class="meta"><span class="category">Energy Saving</span> • March 13, 2026</div>
+                
+                <p>Circulating water systems are the "circulatory system" of industrial enterprises, widely used in central air conditioning, cooling process equipment, and boiler feedwater. A typical electronics factory's circulating water system can consume millions of kWh annually.</p>
+                
+                <h2>Energy Consumption Composition</h2>
+                <ul>
+                    <li>Cooling towers: 20-30%</li>
+                    <li>Circulating water pumps: 50-65%</li>
+                    <li>Valves and pipes: 5-10%</li>
+                </ul>
+                <p><strong>Water pumps are the biggest energy consumer.</strong></p>
+                
+                <h2>The Correct Method: Variable Frequency Speed Control</h2>
+                <p>According to the similarity law:</p>
+                <ul>
+                    <li>Flow is proportional to speed</li>
+                    <li>Head is proportional to the square of speed</li>
+                    <li>Power is proportional to the cube of speed</li>
+                </ul>
+                <p><strong>This means when flow drops to 50%, power drops to 12.5%! Energy saving effect is extremely significant.</strong></p>
+                
+                <h2>Typical Case</h2>
+                <div class="highlight">
+                    <p>A packaging factory's circulating water system transformation:</p>
+                    <ul>
+                        <li>Annual power consumption: dropped from 2.8M kWh to 1.6M kWh</li>
+                        <li>Annual electricity savings: 840,000 yuan</li>
+                        <li>Investment payback period: 1.8 years</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
     
     <footer>
         <div class="container">
-            <p>&copy; 2026 Smart Facility. All rights reserved.</p>
+            <p>© 2026 Smart Facility. All rights reserved.</p>
         </div>
     </footer>
+    
+    <script>
+        function showArticle(id) {
+            document.getElementById('home-page').classList.add('hidden');
+            document.querySelectorAll('[id^="article"]').forEach(el => el.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+        
+        function showHome() {
+            document.querySelectorAll('[id^="article"]').forEach(el => el.classList.add('hidden'));
+            document.getElementById('home-page').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+    </script>
 </body>
 </html>
