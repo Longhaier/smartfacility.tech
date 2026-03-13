@@ -15,12 +15,12 @@
   "author": "Smart Facility",
   "license": "MIT",
   "dependencies": {
-    "hexo": "^7.0.0",
     "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-theme-butterfly": "^5.4.3"
   },
   "devDependencies": {
+    "hexo": "^8.1.1",
     "hexo-cli": "^4.3.2"
   }
 }
