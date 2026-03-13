@@ -1,5 +1,0 @@
-{
-  "buildCommand": "npx hexo generate --config _config.yml",
-  "installCommand": "npm install --legacy-peer-deps",
-  "outputDirectory": "public"
-}
