@@ -118,11 +118,11 @@
     <div id="home-page">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
                 <nav>
-                    <a href="javascript:;" onclick="showHome()">Home</a>
-                    <a href="javascript:;" onclick="showHome()">Articles</a>
-                    <a href="javascript:;" onclick="showHome()">About</a>
+                    <a href="javascript:;" onclick="goHome()">Home</a>
+                    <a href="javascript:;" onclick="goHome()">Articles</a>
+                    <a href="javascript:;" onclick="goHome()">About</a>
                 </nav>
             </div>
         </header>
@@ -234,13 +234,13 @@
     <div id="article1" class="hidden">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
-                <nav><a href="javascript:;" onclick="showHome()">← Back</a></nav>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="javascript:;" onclick="goHome()">← Back</a></nav>
             </div>
         </header>
         <section class="article-full">
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <a href="javascript:;" onclick="goHome()" class="back-link">← Back to Articles</a>
                 <h1>The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories: A Practical Case Study of Compressed Air System Heat Recovery</h1>
                 <div class="meta"><span class="category">Energy Saving</span> • March 13, 2026</div>
                 
@@ -313,13 +313,13 @@
     <div id="article2" class="hidden">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
-                <nav><a href="javascript:;" onclick="showHome()">← Back</a></nav>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="javascript:;" onclick="goHome()">← Back</a></nav>
             </div>
         </header>
         <section class="article-full">
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <a href="javascript:;" onclick="goHome()" class="back-link">← Back to Articles</a>
                 <h1>Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Operation</h1>
                 <div class="meta"><span class="category">Facility Equipment</span> • March 13, 2026</div>
                 
@@ -358,13 +358,13 @@
     <div id="article3" class="hidden">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
-                <nav><a href="javascript:;" onclick="showHome()">← Back</a></nav>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="javascript:;" onclick="goHome()">← Back</a></nav>
             </div>
         </header>
         <section class="article-full">
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <a href="javascript:;" onclick="goHome()" class="back-link">← Back to Articles</a>
                 <h1>Transformer Load Optimization: Making Power Systems More Efficient and Safer</h1>
                 <div class="meta"><span class="category">Facility Equipment</span> • March 13, 2026</div>
                 
@@ -400,13 +400,13 @@
     <div id="article4" class="hidden">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
-                <nav><a href="javascript:;" onclick="showHome()">← Back</a></nav>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="javascript:;" onclick="goHome()">← Back</a></nav>
             </div>
         </header>
         <section class="article-full">
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <a href="javascript:;" onclick="goHome()" class="back-link">← Back to Articles</a>
                 <h1>Predictive Maintenance for Facility Equipment: Eliminating Failures Before They Happen</h1>
                 <div class="meta"><span class="category">Facility Management</span> • March 13, 2026</div>
                 
@@ -439,13 +439,13 @@
     <div id="article5" class="hidden">
         <header>
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="logo">Smart<span>Facility</span></a>
-                <nav><a href="javascript:;" onclick="showHome()">← Back</a></nav>
+                <a href="javascript:;" onclick="goHome()" class="logo">Smart<span>Facility</span></a>
+                <nav><a href="javascript:;" onclick="goHome()">← Back</a></nav>
             </div>
         </header>
         <section class="article-full">
             <div class="container">
-                <a href="javascript:;" onclick="showHome()" class="back-link">← Back to Articles</a>
+                <a href="javascript:;" onclick="goHome()" class="back-link">← Back to Articles</a>
                 <h1>Industrial Circulating Water System Energy Saving: Optimization Space That 90% Don't Know</h1>
                 <div class="meta"><span class="category">Energy Saving</span> • March 13, 2026</div>
                 
@@ -495,7 +495,7 @@
             window.scrollTo(0, 0);
         }
         
-        function showHome() {
+        function goHome() {
             document.querySelectorAll('[id^="article"]').forEach(el => el.classList.add('hidden'));
             document.getElementById('home-page').classList.remove('hidden');
             window.scrollTo(0, 0);
