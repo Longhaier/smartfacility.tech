@@ -4,9 +4,9 @@
   "description": "Industrial Energy and Smart Factory Blog",
   "main": "index.js",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy"
+    "build": "npx hexo generate",
+    "clean": "npx hexo clean",
+    "deploy": "npx hexo deploy"
   },
   "keywords": [
     "hexo",
