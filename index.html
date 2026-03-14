@@ -314,9 +314,10 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="container nav-inner">
-            <a href="#" class="active" onclick="showPage('home'); return false;">🏠 Home</a>
+            <a href="#" onclick="showPage('home'); return false;">🏠 Home</a>
             <a href="#" onclick="showPage('articles'); return false;">📚 Articles</a>
             <a href="#" onclick="showPage('categories'); return false;">🏷️ Categories</a>
+            <a href="#" onclick="showPage('tags'); return false;">🏷️ Tags</a>
             <a href="#" onclick="showPage('about'); return false;">ℹ️ About</a>
             <a href="#" onclick="showPage('terms'); return false;">📄 Terms</a>
             <a href="#" onclick="showPage('privacy'); return false;">🔒 Privacy</a>
@@ -440,12 +441,59 @@
             </article>
         </div>
         
+        <!-- Tags Page -->
+        <div id="page-tags" class="hidden">
+            <h2 class="section-title">All Tags</h2>
+            
+            <article class="article-card">
+                <h3>🔍 Browse by Tag</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px;">
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(1)">Compressor</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(1)">Heat Recovery</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(1)">Energy Saving</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(2)">Cleanroom</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(2)">HVAC</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(3)">Transformer</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(3)">Power System</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(3)">Optimization</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(4)">Maintenance</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(4)">Predictive</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(4)">IoT</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(5)">Circulating Water</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(5)">Pump</span>
+                    <span class="category-tag" style="cursor: pointer;" onclick="showArticle(5)">Cooling Tower</span>
+                </div>
+            </article>
+            
+            <article class="article-card">
+                <h3>📊 Tag Cloud</h3>
+                <p style="margin-top: 16px; color: var(--text-light);">Total: 14 tags across 5 articles</p>
+                <div style="margin-top: 16px;">
+                    <span class="tag" style="font-size: 1rem; padding: 6px 14px;">Energy Saving (3)</span>
+                    <span class="tag" style="font-size: 0.9rem; padding: 5px 12px;">Compressor (1)</span>
+                    <span class="tag" style="font-size: 0.85rem; padding: 4px 11px;">Heat Recovery (1)</span>
+                    <span class="tag" style="font-size: 0.9rem; padding: 5px 12px;">Cleanroom (1)</span>
+                    <span class="tag" style="font-size: 0.85rem; padding: 4px 11px;">HVAC (1)</span>
+                    <span class="tag" style="font-size: 0.9rem; padding: 5px 12px;">Transformer (1)</span>
+                    <span class="tag" style="font-size: 0.85rem; padding: 4px 11px;">Power System (1)</span>
+                    <span class="tag" style="font-size: 0.8rem; padding: 4px 10px;">Optimization (1)</span>
+                    <span class="tag" style="font-size: 0.9rem; padding: 5px 12px;">Maintenance (1)</span>
+                    <span class="tag" style="font-size: 0.85rem; padding: 4px 11px;">Predictive (1)</span>
+                    <span class="tag" style="font-size: 0.8rem; padding: 4px 10px;">IoT (1)</span>
+                    <span class="tag" style="font-size: 0.9rem; padding: 5px 12px;">Circulating Water (1)</span>
+                    <span class="tag" style="font-size: 0.85rem; padding: 4px 11px;">Pump (1)</span>
+                    <span class="tag" style="font-size: 0.8rem; padding: 4px 10px;">Cooling Tower (1)</span>
+                </div>
+            </article>
+        </div>
+        
         <!-- About Page -->
         <div id="page-about" class="hidden">
             <h2 class="section-title">About Smart Facility</h2>
             
             <article class="article-card">
-                <p>Smart Facility is a professional knowledge platform dedicated to industrial energy management and smart factory technologies.</p>
+                <h3>📖 About This Site</h3>
+                <p style="margin-top: 16px;">Smart Facility is a professional knowledge platform dedicated to industrial energy management and smart factory technologies.</p>
                 <br>
                 <p><strong>Our Focus:</strong></p>
                 <ul style="margin: 16px 0;">
@@ -454,6 +502,30 @@
                     <li>🌱 <strong>Renewable Energy</strong> - Solar, storage, carbon neutrality</li>
                 </ul>
                 <p>We provide expert insights, best practices, and case studies on reducing energy consumption in manufacturing facilities.</p>
+            </article>
+            
+            <article class="article-card">
+                <h3>📊 Website Statistics</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-top: 16px;">
+                    <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #0ea5e9, #06b6d4); border-radius: 12px; color: white;">
+                        <div style="font-size: 2rem; font-weight: 700;">5</div>
+                        <div style="font-size: 0.875rem; opacity: 0.9;">Articles</div>
+                    </div>
+                    <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #8b5cf6, #a855f7); border-radius: 12px; color: white;">
+                        <div style="font-size: 2rem; font-weight: 700;">3</div>
+                        <div style="font-size: 0.875rem; opacity: 0.9;">Categories</div>
+                    </div>
+                    <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #10b981, #34d399); border-radius: 12px; color: white;">
+                        <div style="font-size: 2rem; font-weight: 700;">14</div>
+                        <div style="font-size: 0.875rem; opacity: 0.9;">Tags</div>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="article-card">
+                <h3>📱 Contact Us</h3>
+                <p style="margin-top: 16px;">Have questions or suggestions? Feel free to reach out!</p>
+                <p style="margin-top: 12px; color: var(--text-light);">Email: contact@smartfacility.tech</p>
             </article>
         </div>
         
