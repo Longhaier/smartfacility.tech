@@ -1,45 +1,45 @@
 ---
-title: 隐私政策
+title: Privacy Policy
 date: 2026-03-13
 layout: page
 comments: false
 ---
 
-# 隐私政策
+# Privacy Policy
 
-**最后更新：2026年3月13日**
+**Last Updated: March 13, 2026**
 
-我们重视您的隐私。本隐私政策说明了我们如何收集、使用和保护您的信息。
+We value your privacy. This privacy policy explains how we collect, use, and protect your information.
 
-## 1. 信息收集
+## 1. Information Collection
 
-我们通过以下方式收集信息：
-- **自动收集**：当您访问我们的网站时，我们可能自动收集某些信息，如IP地址、浏览器类型、访问时间等。
+We collect information in the following ways:
+- **Automatic Collection**: When you visit our website, we may automatically collect certain information such as IP address, browser type, visit time, etc.
 
-## 2. Cookie使用
+## 2. Cookie Usage
 
-我们使用Cookie来改善您的浏览体验。您可以通过浏览器设置禁用Cookie，但这可能会影响网站某些功能。
+We use cookies to improve your browsing experience. You can disable cookies through your browser settings, but this may affect some website features.
 
-## 3. 第三方服务
+## 3. Third-Party Services
 
-我们的网站使用Google AdSense等第三方广告服务。这些第三方可能会使用Cookie来展示个性化广告。
+Our website uses third-party advertising services such as Google AdSense. These third parties may use cookies to display personalized ads.
 
-## 4. 第三方链接
+## 4. Third-Party Links
 
-我们的网站可能包含指向第三方网站的链接。我们不对这些网站的隐私实践负责。
+Our website may contain links to third-party websites. We are not responsible for the privacy practices of these websites.
 
-## 5. 数据安全
+## 5. Data Security
 
-我们采取合理的安全措施来保护您的个人信息，但无法保证绝对安全。
+We take reasonable security measures to protect your personal information, but cannot guarantee absolute security.
 
-## 6. 儿童隐私
+## 6. Children's Privacy
 
-我们的网站不面向13岁以下儿童。
+Our website is not intended for children under 13 years of age.
 
-## 7. 政策变更
+## 7. Policy Changes
 
-我们可能随时更新本隐私政策。变更将在本页面公布。
+We may update this privacy policy at any time. Changes will be posted on this page.
 
-## 8. 联系我们
+## 8. Contact Us
 
-如果您对我们的隐私政策有任何疑问，请联系我们。
+If you have any questions about our privacy policy, please contact us.

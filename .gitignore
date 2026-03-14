@@ -5,4 +5,8 @@ db.json
 node_modules/
 public/
 .deploy*/
+<<<<<<< HEAD
 _multiconfig.yml
+=======
+.git/
+>>>>>>> 960bfcf876c683f82a151b75b5fb44734ef96daf

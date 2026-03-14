@@ -1,27 +1,27 @@
 ---
-title: 关于我们
+title: About Us
 date: 2026-03-12
 ---
 
-# 关于我们
+# About Us
 
-**智效厂务** 专注于集成电路封测工厂的节能技术知识分享。
+**Smart Facility** is dedicated to sharing energy-saving technical knowledge for IC packaging and testing factories.
 
-## 我们的使命
+## Our Mission
 
-- 分享最新的厂务节能案例
-- 传播动力设备管理经验  
-- 推动绿色制造行业发展
+- Share the latest facility energy-saving cases
+- Disseminate power equipment management experience
+- Promote green manufacturing industry development
 
-## 核心内容
+## Core Content
 
-- 空压机节能改造
-- 洁净室能耗优化
-- 动力系统管理
-- 智能运维方案
+- Compressor energy-saving solutions
+- Cleanroom energy optimization
+- Power system management
+- Smart operations solutions
 
-## 联系我们
+## Contact Us
 
-Email: contact@factoryenergy.site
+Email: contact@smartfacility.tech
 
-© 2026 智效厂务
+© 2026 Smart Facility

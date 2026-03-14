@@ -1,58 +1,58 @@
 ---
-title: 标签
+title: Tags
 date: 2026-03-12
 layout: page
 comments: false
 ---
 
-# 文章标签
+# Tags
 
-## 空压机
-- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
-- [空压机余热回收技术指南](/2026/03/12/aircompressor-heat-recovery/)
+## Compressor
+- [Air Compressor Heat Recovery Case Study: 30% Energy Reduction in Semiconductor Fab](/2026/03/13/aircompressor-heat-recovery-case/)
+- [Air Compressor Heat Recovery Technology Guide](/2026/03/12/aircompressor-heat-recovery/)
 
-## 余热回收
-- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
-- [空压机余热回收技术指南](/2026/03/12/aircompressor-heat-recovery/)
+## Heat Recovery
+- [Air Compressor Heat Recovery Case Study: 30% Energy Reduction in Semiconductor Fab](/2026/03/13/aircompressor-heat-recovery-case/)
+- [Air Compressor Heat Recovery Technology Guide](/2026/03/12/aircompressor-heat-recovery/)
 
-## 节能改造
-- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
+## Energy Saving
+- [Air Compressor Heat Recovery Case Study: 30% Energy Reduction in Semiconductor Fab](/2026/03/13/aircompressor-heat-recovery-case/)
 
-## 洁净室
-- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+## Cleanroom
+- [Cleanroom HVAC Energy Saving: Complete Guide from Design to Operations](/2026/03/13/cleanroom-hvac-energy-saving/)
 
 ## HVAC
-- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+- [Cleanroom HVAC Energy Saving: Complete Guide from Design to Operations](/2026/03/13/cleanroom-hvac-energy-saving/)
 
-## 中央空调
-- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+## Central Air Conditioning
+- [Cleanroom HVAC Energy Saving: Complete Guide from Design to Operations](/2026/03/13/cleanroom-hvac-energy-saving/)
 
-## 变压器
-- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+## Transformer
+- [Transformer Load Optimization: Making Power Systems More Efficient and Safer](/2026/03/13/transformer-load-optimization/)
 
-## 电力系统
-- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+## Power System
+- [Transformer Load Optimization: Making Power Systems More Efficient and Safer](/2026/03/13/transformer-load-optimization/)
 
-## 负载优化
-- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+## Load Optimization
+- [Transformer Load Optimization: Making Power Systems More Efficient and Safer](/2026/03/13/transformer-load-optimization/)
 
-## 设备维护
-- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+## Equipment Maintenance
+- [Predictive Maintenance: Eliminating Failures Before They Happen](/2026/03/13/predictive-maintenance/)
 
-## 预测性维护
-- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+## Predictive Maintenance
+- [Predictive Maintenance: Eliminating Failures Before They Happen](/2026/03/13/predictive-maintenance/)
 
-## 智能运维
-- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+## Smart Operations
+- [Predictive Maintenance: Eliminating Failures Before They Happen](/2026/03/13/predictive-maintenance/)
 
-## 工业4.0
-- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+## Industry 4.0
+- [Predictive Maintenance: Eliminating Failures Before They Happen](/2026/03/13/predictive-maintenance/)
 
-## 循环水
-- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+## Circulating Water
+- [Industrial Circulating Water System: 90% Don't Know This Optimization Potential](/2026/03/13/circulating-water-system-energy-saving/)
 
-## 水泵优化
-- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+## Pump Optimization
+- [Industrial Circulating Water System: 90% Don't Know This Optimization Potential](/2026/03/13/circulating-water-system-energy-saving/)
 
-## 冷却塔
-- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+## Cooling Tower
+- [Industrial Circulating Water System: 90% Don't Know This Optimization Potential](/2026/03/13/circulating-water-system-energy-saving/)

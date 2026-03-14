@@ -1,36 +1,36 @@
 ---
-title: 服务条款
+title: Terms of Service
 date: 2026-03-13
 layout: page
 comments: false
 ---
 
-# 服务条款
+# Terms of Service
 
-**最后更新：2026年3月13日**
+**Last Updated: March 13, 2026**
 
-欢迎访问厂务能源网。使用我们的网站即表示您同意以下服务条款。
+Welcome to Smart Facility. By using our website, you agree to the following terms of service.
 
-## 1. 接受条款
+## 1. Acceptance of Terms
 
-通过访问和使用本网站，您承认并同意受本协议条款和条件的约束。
+By accessing and using this website, you acknowledge and agree to be bound by the terms and conditions of this agreement.
 
-## 2. 使用许可
+## 2. License
 
-本网站上提供的所有内容仅供您个人、非商业目的浏览使用。未经授权，禁止复制、修改、分发、传播或商业使用本网站内容。
+All content provided on this website is for your personal, non-commercial browsing use only. Unauthorized copying, modifying, distributing, transmitting, or commercial use of any content from this website is prohibited.
 
-## 3. 内容免责声明
+## 3. Disclaimer
 
-本网站上的所有内容仅供参考目的。我们尽力确保信息的准确性，但无法保证所有内容都是最新或完整的。
+All content on this website is for informational purposes only. We strive to ensure the accuracy of information but cannot guarantee that all content is up-to-date or complete.
 
-## 4. 第三方链接
+## 4. Third-Party Links
 
-本网站可能包含指向第三方网站的链接。我们不对这些网站的隐私实践或内容负责。
+This website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites.
 
-## 5. 联系我们
+## 5. Contact Us
 
-如果您对这些服务条款有任何疑问，请联系我们。
+If you have any questions about these terms of service, please contact us.
 
-## 6. 变更条款
+## 6. Changes to Terms
 
-我们保留随时修改这些服务条款的权利。修改后的条款将在本页面公布。
+We reserve the right to modify these terms of service at any time. Modified terms will be posted on this page.
