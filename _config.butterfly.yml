@@ -17,13 +17,13 @@ nav:
   search_button: false
 
 menu:
-  首页: / || fas fa-home
-  关于: /about/ || fas fa-user
-  分类: /categories/ || fas fa-folder
-  标签: /tags/ || fas fa-tags
-  搜索: /search/ || fas fa-search
-  服务条款: /terms/ || fas fa-file-alt
-  隐私政策: /privacy/ || fas fa-shield-alt
+  Home: / || fas fa-home
+  About: /about/ || fas fa-user
+  Categories: /categories/ || fas fa-folder
+  Tags: /tags/ || fas fa-tags
+  Search: /search/ || fas fa-search
+  Terms: /terms/ || fas fa-file-alt
+  Privacy: /privacy/ || fas fa-shield-alt
 
 # --------------------------------------
 # Code Blocks Settings
