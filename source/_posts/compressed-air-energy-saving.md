@@ -39,7 +39,7 @@ Lower values mean higher efficiency.
 What does an 18% leakage rate mean? For every 100m³ of air produced, 18m³ directly "evaporates into thin air".
 
 **Common Detection Methods:**
-- Ultrasonic leak detector (accuracy可达0.1m³/h)
+- Ultrasonic leak detector (accuracy up to 0.1m³/h)
 - Foam method (suitable for valves and joints)
 - Thermal imaging (suitable for insulated pipes)
 
