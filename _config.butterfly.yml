@@ -17,13 +17,13 @@ nav:
   search_button: false
 
 menu:
-  Home: / || fas fa-home
-  About: /about/ || fas fa-user
-  Categories: /categories/ || fas fa-folder
-  Tags: /tags/ || fas fa-tags
-  Search: /search/ || fas fa-search
-  Terms: /terms/ || fas fa-file-alt
-  Privacy: /privacy/ || fas fa-shield-alt
+  首页: / || fas fa-home
+  关于: /about/ || fas fa-user
+  分类: /categories/ || fas fa-folder
+  标签: /tags/ || fas fa-tags
+  搜索: /search/ || fas fa-search
+  服务条款: /terms/ || fas fa-file-alt
+  隐私政策: /privacy/ || fas fa-shield-alt
 
 # --------------------------------------
 # Code Blocks Settings
@@ -57,20 +57,20 @@ social:
 favicon: https://www.smartfacility.tech/img/favicon.ico
 
 avatar:
-  img: https://api.dicebear.com/7.x/identicon/svg?seed=smartfacility
+  img: https://api.dicebear.com/7.x/identicon/svg?seed=factory
   effect: false
 
 # Disable all banner images
 disable_top_img: true
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: 
+default_top_img:
 
 # The banner image of index page
-index_img: 
+index_img:
 
 # The banner image of archive page
-archive_img: 
+archive_img:
 
 # Note: tag page, not tags page
 tag_img:
@@ -112,7 +112,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: 'Page Not Found'
   background: /img/error-page.png
 
@@ -150,7 +150,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -209,7 +209,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   text:
   QR_code:
     # - img: /img/wechat.jpg
@@ -222,7 +222,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: true
+  enable: false
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url:
@@ -243,7 +243,7 @@ post_pagination: 1
 
 # Displays outdated notice for a post
 noticeOutdate:
-  enable: true
+  enable: false
   # Style: simple / flat
   style: flat
   # When will it be shown
@@ -289,11 +289,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 关注我们
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎访问厂务能源网！
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -302,7 +302,7 @@ aside:
     sort: date
     sort_order:
   card_newest_comments:
-    enable: true
+    enable: false
     sort_order:
     limit: 6
     # Unit: mins, save data to localStorage
@@ -364,7 +364,7 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -400,7 +400,7 @@ rightside_scroll_percent: false
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat the same value
 rightside_item_order:
-  enable: true
+  enable: false
   # Default: readmode,translate,darkmode,hideAside
   hide:
   # Default: toc,chat,comment
@@ -425,12 +425,12 @@ copy:
   enable: true
   # Add the copyright information after copied content
   copyright:
-    enable: true
+    enable: false
     limit_count: 150
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: true
+  enable: false
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -493,7 +493,7 @@ search:
     unescape: false
     # Enable pagination for search results
     pagination:
-      enable: true
+      enable: false
       # Number of search results per page
       hitsPerPage: 8
     CDN:
@@ -699,7 +699,7 @@ microsoft_clarity:
 
 # https://umami.is/
 umami_analytics:
-  enable: true
+  enable: false
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL:
   script_name: script.js
@@ -792,7 +792,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -808,7 +808,7 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: true
+  enable: false
   # Specify the field to beautify (site or post)
   field: post
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
@@ -839,7 +839,7 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: true
+  enable: false
   colorful: true
   shake: true
   mobile: false
@@ -850,7 +850,7 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   # The size of ribbon
   size: 150
   # The opacity of ribbon (0 ~ 1)
@@ -861,13 +861,13 @@ canvas_ribbon:
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   color: '0,0,255'
   # The opacity of line (0~1)
@@ -880,18 +880,18 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999
   mobile: false
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: true
+  enable: false
   mobile: false
 
 # Mouse click effects: words
 clickShowText:
-  enable: true
+  enable: false
   text:
     # - I
     # - LOVE
@@ -916,7 +916,7 @@ lightbox:
 
 # Series
 series:
-  enable: true
+  enable: false
   # Order by title or date
   orderBy: 'title'
   # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -926,13 +926,13 @@ series:
 # ABCJS - The ABC Music Notation Plugin
 # https://github.com/paulrosen/abcjs
 abcjs:
-  enable: true
+  enable: false
   per_page: true
 
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: true
+  enable: false
   # Write Mermaid diagrams using code blocks
   code_write: false
   # built-in themes: default / forest / dark / neutral
@@ -947,7 +947,7 @@ mermaid:
 # chartjs
 # see https://www.chartjs.org/docs/latest/
 chartjs:
-  enable: true
+  enable: false
   # Do not modify unless you understand how they work.
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
@@ -983,21 +983,21 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: true
+  enable: false
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
   bg_light: '#49b1f5'
@@ -1010,7 +1010,7 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   # Use browser's native lazyload instead of vanilla-lazyload
   native: false
   # Specify the field to use lazyload (site or post)
@@ -1022,7 +1022,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: true
+  enable: false
   manifest:
   apple_touch_icon:
   favicon_32_32:
@@ -1045,7 +1045,7 @@ Open_Graph_meta:
 # Structured Data
 # https://developers.google.com/search/docs/guides/intro-structured-data
 structured_data:
-  enable: true
+  enable: false
   # Alternate name for the site, used in structured data
   # Format: ['name1', 'name2']
   alternate_name:
