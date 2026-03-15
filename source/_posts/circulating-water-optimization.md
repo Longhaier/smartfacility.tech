@@ -1,5 +1,5 @@
 ---
-title: Factory Circulating Water System Optimization: Secrets to Halving Your Electricity Bill
+title: "Factory Circulating Water System Optimization: Secrets to Halving Your Electricity Bill"
 date: 2026-03-15 14:00:00
 categories: [Energy Saving]
 tags: [circulating water, energy saving, pump optimization, cooling tower]

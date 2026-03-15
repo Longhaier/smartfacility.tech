@@ -1,5 +1,5 @@
 ---
-title: Factory Operations Duty Room Upgrade: Efficiency Leap Brought by Digital Transformation
+title: "Factory Operations Duty Room Upgrade: Efficiency Leap Brought by Digital Transformation"
 date: 2026-03-15 14:10:00
 categories: [Smart Factory]
 tags: [digital transformation, operations management, smart inspection, repair system]
