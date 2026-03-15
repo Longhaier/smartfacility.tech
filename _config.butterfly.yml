@@ -14,7 +14,7 @@ nav:
   display_title: true
   display_post_title: true
   fixed: false
-  search_button: false
+  search_button: true
 
 menu:
   Home: / || fas fa-home
