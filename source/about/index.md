@@ -22,6 +22,6 @@ date: 2026-03-12
 
 ## Contact Us
 
-Email: contact@smartfacility.tech
+Email: 1029418861@qq.com
 
 © 2026 Smart Facility
