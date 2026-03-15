@@ -1,6 +1,5 @@
 ---
 title: Compressed Air System Energy Saving - The Critical Parameter 90% of Factories Overlook
-cover: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800
 date: 2026-03-14 18:00:00
 tags:
   - Compressed Air System

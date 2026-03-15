@@ -1,6 +1,5 @@
 ---
 title: The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories
-cover: https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800
 date: 2026-03-13 10:00:00
 categories:
   - Energy Cases

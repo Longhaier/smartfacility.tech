@@ -1,6 +1,5 @@
 ---
 title: Compressor Heat Recovery - A Practical Guide for Semiconductor Factories
-cover: https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800
 date: 2026-03-12 22:00:00
 tags:
   - Compressor

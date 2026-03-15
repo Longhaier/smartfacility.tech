@@ -1,6 +1,5 @@
 ---
 title: Industrial Circulating Water System Energy Saving - Optimization Space That 90% Don't Know
-cover: https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800
 date: 2026-03-13 14:00:00
 categories:
   - Energy Cases

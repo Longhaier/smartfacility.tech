@@ -1,6 +1,5 @@
 ---
 title: Predictive Maintenance - Making Equipment Failures a Thing of the Past
-cover: https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800
 date: 2026-03-14 18:00:00
 tags:
   - Predictive Maintenance

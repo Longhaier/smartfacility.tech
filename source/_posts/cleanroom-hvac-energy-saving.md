@@ -1,6 +1,5 @@
 ---
 title: Cleanroom HVAC System Energy Saving - A Complete Guide from Design to Operation
-cover: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800
 date: 2026-03-13 11:00:00
 categories:
   - Facility Equipment

@@ -1,6 +1,5 @@
 ---
 title: Transformer Load Optimization - Making Power Systems More Efficient and Safer
-cover: https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800
 date: 2026-03-13 12:00:00
 categories:
   - Facility Equipment

@@ -1,6 +1,5 @@
 ---
 title: Factory Solar PV - The Golden Era Has Arrived, Are You Ready?
-cover: https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800
 date: 2026-03-14 18:00:00
 tags:
   - Solar
