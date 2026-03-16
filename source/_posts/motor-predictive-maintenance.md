@@ -1,3 +1,10 @@
+---
+title: Motor Predictive Maintenance - Let Equipment Failures Speak for Themselves
+date: 2026-03-16 08:00:00
+categories: [Smart Operations]
+tags: [Predictive Maintenance, Motor, Equipment Management, Fault Diagnosis]
+---
+
 # Motor Predictive Maintenance: Let Equipment Failures Speak for Themselves
 
 ## Why Predictive Maintenance Matters

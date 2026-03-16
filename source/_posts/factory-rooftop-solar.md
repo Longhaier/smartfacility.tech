@@ -1,3 +1,10 @@
+---
+title: Factory Rooftop Solar PV - Is It Worth Installing? Do the Math First
+date: 2026-03-16 08:00:00
+categories: [Renewable Energy]
+tags: [Solar PV, Solar Energy, Investment Return, Factory Rooftop]
+---
+
 # Factory Rooftop Solar PV: Is It Worth Installing? Do the Math First
 
 ## Solar Prices Have Dropped—Should You Jump In?

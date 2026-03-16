@@ -1,3 +1,10 @@
+---
+title: Air Compressor Waste Heat Recovery - The Secret to Earning 200,000 RMB Annually
+date: 2026-03-16 08:00:00
+categories: [Energy Technology]
+tags: [Air Compressor, Waste Heat Recovery, Energy Saving, Energy Management]
+---
+
 # Air Compressor Waste Heat Recovery: The Secret to Earning 200,000 RMB Annually
 
 ## The Overlooked "Free" Energy
