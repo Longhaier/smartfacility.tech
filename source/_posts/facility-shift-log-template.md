@@ -1,6 +1,6 @@
 ---
 title: Facility Shift Log Template: Share Your Experience
-date: 2026-03-17 08:00:00 +08:00
+date: 2026-03-17 08:00:00
 categories: [Facility Management]
 tags: [facility management, shift log, template, operations]
 ---
