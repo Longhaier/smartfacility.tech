@@ -99,10 +99,9 @@ ignore:
 theme: butterfly
 
 # Inject
-inject:
-  head:
-    - <meta name="google-adsense-account" content="ca-pub-7465624411296700">
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
+# Note: Butterfly theme uses its own inject configuration in _config.butterfly.yml
+# inject:
+#   head:
 
 # Search
 ## Docs: https://hexo.io/docs/search
