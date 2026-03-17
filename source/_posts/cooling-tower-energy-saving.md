@@ -1,6 +1,6 @@
 ---
 title: Factory Cooling Tower Energy Saving: Save 20,000 RMB Monthly
-date: 2026-03-17 08:00:00
+date: 2026-03-17 08:00:00 +08:00
 categories: [Energy Technology]
 tags: [cooling tower, energy saving, facility, electricity cost]
 ---

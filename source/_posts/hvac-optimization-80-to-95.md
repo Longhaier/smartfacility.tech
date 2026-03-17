@@ -1,6 +1,6 @@
 ---
 title: HVAC Optimization: Going from 80 to 95 Points
-date: 2026-03-17 08:00:00
+date: 2026-03-17 08:00:00 +08:00
 categories: [HVAC]
 tags: [HVAC, energy optimization, central air conditioning, operations]
 ---
