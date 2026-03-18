@@ -1058,6 +1058,8 @@ css_prefix: true
 inject:
   head:
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
+    - <script>window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script>
+    - <script defer src="/_vercel/speed-insights/script.js"></script>
   bottom:
     - <script defer src="https://cdn.jsdelivr.net/npm/vercel-analytics@latest"></script>
 
